@@ -1,4 +1,4 @@
-# Codebook for the class project for "Getting and Cleaning Data"
+# Codebook for GCD_project.csv
 
 There are three main objects of interest: Activity, Volunteer, and signal.  Each Volunteer completed every activity at least once.  Each time an activity was completed, the activity, volunteer, mean, and standard deviation of every signal was recorded.  There were in fact many more statistics recorded, (see the Original Data section below) but we are only considering mean and standard deviation for now.
 
@@ -42,8 +42,8 @@ For simplicity, we will refer to each signal as just "signal" in the following d
 
 
 Variable Name	| Variable Description	| Values
--------------	| -------------------
-Activity	| This is a factor, each factor describes what the volunteer was doing at the time of measurement | Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying
+-------------	| -------------------	| -------
+Activity	| This is a factor, each factor describes what the volunteer was doing at the time of measurement	| Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying
 Volunteer	| This is an integer, each participant in the study is assigned to a unique value. 	| 1:30 
 signal-mean()	| Average of the means of the signal grouped by Activity and Volunteer	| These are numeric values that were normalized and bounded within [-1,1]
 signal-std()	| Average of the standard deviations of the signal grouped by Activity and Volunteer	| These are numeric values that were normalized and bounded within [-1,1]
