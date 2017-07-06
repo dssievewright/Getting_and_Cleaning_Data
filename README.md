@@ -4,7 +4,7 @@ This project is designed to collect and clean data from a UCI experiment studyin
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones# 
 
-There are two other scripts in this repo.  
+There are two other scripts and a table in this repository.  
 
 run_analysis.R contains the R code that completes the follwoing tasks:
 * Downloads the data and loads it into R. 
@@ -14,3 +14,5 @@ run_analysis.R contains the R code that completes the follwoing tasks:
 These averages will be stored in a table called tidydata and can be viewed by calling View(tidydata)
 
 CodeBook.md contains information about the data set, the variables in it, and the transformations used to clean up the data. 
+
+GCD_project.csv is the a copy of the tidydata table after the run_analysis.R script was completed.
